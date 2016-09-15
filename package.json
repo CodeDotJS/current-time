@@ -1,0 +1,52 @@
+{
+  "name": "current-time",
+  "version": "1.0.0",
+  "description": "Get current date and time in descriptive format",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/current-time.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "get",
+    "current",
+    "date",
+    "time",
+    "today",
+    "descriptive",
+    "questions",
+    "different",
+    "timezones",
+    "cities",
+    "particular",
+    "daylight",
+    "saving",
+    "year"
+  ],
+  "dependencies": {
+    "got": "^6.3.0",
+    "pinkie-promise": "2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/current-time/issues"
+  },
+  "homepage": "https://github.com/codedotjs/current-time#readme",
+  "main": "index.js"
+}
