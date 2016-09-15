@@ -1,4 +1,5 @@
-# current-time [![Build Status](https://travis-ci.org/CodeDotJS/current-time.svg?branch=master)](https://travis-ci.org/CodeDotJS/current-time)
+# current-time
+[![Build Status](https://travis-ci.org/CodeDotJS/current-time.svg?branch=master)](https://travis-ci.org/CodeDotJS/current-time)
 
 > :alarm_clock: Get current date and time in descriptive format
 
@@ -48,7 +49,7 @@ currenTime('If its 4pm in London what is the time in Boston').then(data => {
 
 Type: `string`
 
-### `kinds of ``info`` that can be supplied :`
+### `kinds of info that can be supplied :`
 
 #### Current time in a city
 
@@ -83,6 +84,11 @@ Type: `string`
 #### Daylight saving information for a city for a specific year
 
 - `When does daylight saving time begin in New York in 2016`
+
+
+## Related
+
+- [current-time-cli](https://github.com/CodeDotJS/current-time-cli) : CLI tool to find current time in descriptive format.
 
 ### NOTE
 
